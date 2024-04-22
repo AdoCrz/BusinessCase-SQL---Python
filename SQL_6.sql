@@ -2,9 +2,9 @@
 SELECT * FROM Sales;
 SELECT * FROM Products;
 
-SELECT TOP 1 P.product_name,
+SELECT TOP 1 C.customer_name,
 SUM(S.quantity) AS [Quantity Sold]
 FROM Sales AS S
-INNER JOIN Products AS P ON S.id_product = P.id_product
-GROUP BY  P.product_name
+INNER JOIN Customers AS C ON S.id_customer = C.id_customer
+GROUP BY  C.customer_name
 ORDER BY [Quantity Sold] DESC;
