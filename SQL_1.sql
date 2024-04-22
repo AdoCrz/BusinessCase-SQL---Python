@@ -17,4 +17,11 @@ FROM Regions AS R
 INNER JOIN Customers AS C ON R.id_region = C.id_region
 INNER JOIN Sales AS S ON C.id_customer = S.id_customer
 GROUP BY R.continent
-ORDER BY  [Distribucion] ASC;
+ORDER BY  [Distribution] DESC;
+
+-- La sitribución se encuentra de la siguiente manera:
+-- Australia	589
+-- Asia	588
+-- Africa	491
+-- America	435
+--Europe	274
