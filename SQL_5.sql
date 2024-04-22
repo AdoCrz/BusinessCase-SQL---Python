@@ -1,3 +1,4 @@
+-- ¿Cuál es el producto más vendido durante el último trimestre del año 2023?
 SELECT * FROM Sales;
 SELECT * FROM Products;
 
