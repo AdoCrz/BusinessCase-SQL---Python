@@ -12,7 +12,7 @@ SELECT * FROM Regions;
 
 SELECT 
 R.continent,
-SUM(S.quantity) AS [Distribucion]
+SUM(S.quantity) AS [Distribution]
 FROM Regions AS R 
 INNER JOIN Customers AS C ON R.id_region = C.id_region
 INNER JOIN Sales AS S ON C.id_customer = S.id_customer
