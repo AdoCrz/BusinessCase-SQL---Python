@@ -15,3 +15,6 @@ INNER JOIN Sales AS S ON C.id_customer = S.id_customer
 INNER JOIN Products AS P ON S.id_product = P.id_product
 GROUP BY CR.country, P.product_name, MONTH(S.date_sale)
 ORDER BY CR.country, [Month] DESC, [Quantity] DESC;
+
+
+
