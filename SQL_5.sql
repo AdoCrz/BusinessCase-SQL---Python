@@ -8,3 +8,5 @@ FROM Sales AS S
 INNER JOIN Products AS P ON S.id_product = P.id_product
 GROUP BY  P.product_name
 ORDER BY [Quantity Sold] DESC;
+
+-- Air Max 95 con una cantidad de 173
