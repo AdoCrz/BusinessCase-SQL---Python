@@ -8,3 +8,5 @@ FROM Sales AS S
 INNER JOIN Customers AS C ON S.id_customer = C.id_customer
 GROUP BY  C.customer_name
 ORDER BY [Quantity Sold] DESC;
+
+-- El cliente es Levi Kelley con una cantidad de 87
