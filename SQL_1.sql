@@ -9,3 +9,12 @@ SELECT * FROM Products;
 SELECT * FROM Sales;
 SELECT * FROM Customers;
 SELECT * FROM Regions;
+
+SELECT 
+R.continent,
+SUM(S.quantity) AS [Distribucion]
+FROM Regions AS R 
+INNER JOIN Customers AS C ON R.id_region = C.id_region
+INNER JOIN Sales AS S ON C.id_customer = S.id_customer
+GROUP BY R.continent
+ORDER BY  [Distribucion] ASC;
