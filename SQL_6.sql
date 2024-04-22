@@ -1,4 +1,4 @@
--- 6 ¿Cuál es el cliente con más compras durante el último trimestre del año 2023?
+-- ¿Cuál es el cliente con más compras durante el último trimestre del año 2023?
 SELECT * FROM Sales;
 SELECT * FROM Products;
 
