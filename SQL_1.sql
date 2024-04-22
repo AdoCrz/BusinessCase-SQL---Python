@@ -5,6 +5,8 @@ USE BD_Rappi;
 
 -- ¿Cuál es la distribución geográfica de las ventas de productos Nike durante el último trimestre del año 2023? --
 
+--Dado que la base de datos es solo del año 2023 y del último trimestre de 2023, se puede excluir el WHERE dentro de las consultas--
+
 SELECT * FROM Products;
 SELECT * FROM Sales;
 SELECT * FROM Customers;
