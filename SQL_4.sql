@@ -1,3 +1,4 @@
+-- ¿Cuál es el promedio de ventas por región o país durante el último trimestre del año 2023?
 SELECT * FROM Sales;
 SELECT * FROM Customers;
 SELECT * FROM Regions;
