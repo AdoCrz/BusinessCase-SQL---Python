@@ -9,13 +9,10 @@ SELECT
     cantidad_vendida, 
     ROUND((cantidad_vendida / CAST(total_cantidad_vendida AS decimal)) * 100, 2) AS porcentaje
 FROM (
-    SELECT 
-        id_status, 
+    SELECT id_status, 
         SUM(quantity) AS cantidad_vendida, 
         (SELECT SUM(quantity) FROM Sales) AS total_cantidad_vendida
-    FROM 
-        Sales
-    GROUP BY 
-        id_status
-) AS subquery;
+    FROM Sales
+    GROUP BY id_status
+) AS porcentajes;
 
