@@ -1,10 +1,4 @@
-# SQL_Rappi
-
-Bienvenido al desafío RappiCard para Business Intelligence Analyst. Por la entrevista que tuvimos,
-ya podemos decir que eres un profesional con mucho conocimiento al que nos encantaría llamar
-compañero de equipo. En este desafío, buscamos Ownership: Ownership de las decisiones,
-Ownership de los datos y Ownership del negocio, por lo tanto, imagina que ya eres una parte
-crucial del equipo y que muchas decisiones comerciales dependen de tu análisis. Empecemos...
+# Proyecto SQL
 
 Archivos CSV que contienen lo siguiente:
 
